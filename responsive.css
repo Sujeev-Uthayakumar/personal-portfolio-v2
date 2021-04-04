@@ -1,5 +1,5 @@
 /*Viewport if equal to 360px or less*/
-@media only screen and (max-width:360px){
+@media only screen and (max-width:425px){
     .header_main .main-menu .navbar{
         padding:1%;
         margin:0%;
@@ -7,8 +7,11 @@
     .site-main .site-banner .site-title h1{
         font-size:35px;
     }
+    .site-main .site-banner .site-title h4{
+        font-size:20px;
+    }
     .site-main .site-banner .site-title h5{
-        font-size:17px;
+        font-size:15px;
     }
     .site-main .background-area{
         padding:5%;
@@ -21,15 +24,31 @@
         padding-bottom:0px;
     }
 
+    .site-main .site-banner button{
+        padding:0.6rem 1.2rem;
+        font-size:13px;
+    }
 }
 
-@media only screen and (max-width:765px){
+@media only screen and (max-width:990px){
     .site-main .skill-area{
         padding:0;
         padding-top:7rem;
     }
-    .profile-img{
-        margin-top:200px;
+    .site-main .background-area .profile-img{
+        margin-top:4rem;
+    }
+    .site-main .background-area{
+        padding:5%;
+        margin:0%;
+    }
+    .site-main .background-area .background-title .center-button{
+        text-align:center;
+    }
+    .site-main .site-banner .banner-image img{
+        padding:0px;
+        padding-top:40px;
+        padding-bottom:40px;
     }
 }
 
